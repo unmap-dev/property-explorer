@@ -1,0 +1,385 @@
+{
+  "_provenance": {
+    "kind": "sample",
+    "note": "Fictional listings: no home here is for sale, real or scraped. Each is placed inside a real City of Calgary community district so commutes and amenities are real answers about real streets.",
+    "locations": "Points inside community districts from The City of Calgary, Community District Boundaries. Contains information licensed under the Open Government Licence – City of Calgary.",
+    "generatedBy": "scripts/make-listings.mjs (seeded; the same output every run)"
+  },
+  "listings": [
+    {
+      "id": "listing-01",
+      "type": "house",
+      "community": "Highwood",
+      "sector": "CENTRE",
+      "price": 890000,
+      "beds": 5,
+      "baths": 3.5,
+      "area": 1380,
+      "built": 1967,
+      "coordinates": [
+        -114.07924,
+        51.09226
+      ]
+    },
+    {
+      "id": "listing-02",
+      "type": "condo",
+      "community": "Forest Lawn",
+      "sector": "EAST",
+      "price": 400000,
+      "beds": 2,
+      "baths": 2,
+      "area": 1040,
+      "built": 2011,
+      "coordinates": [
+        -113.97128,
+        51.0384
+      ]
+    },
+    {
+      "id": "listing-03",
+      "type": "house",
+      "community": "Lewisburg",
+      "sector": "NORTH",
+      "price": 570000,
+      "beds": 4,
+      "baths": 3,
+      "area": 2250,
+      "built": 1967,
+      "coordinates": [
+        -114.04038,
+        51.18795
+      ]
+    },
+    {
+      "id": "listing-04",
+      "type": "townhouse",
+      "community": "Mayland Heights",
+      "sector": "NORTHEAST",
+      "price": 615000,
+      "beds": 3,
+      "baths": 2.5,
+      "area": 1300,
+      "built": 1987,
+      "coordinates": [
+        -114.01275,
+        51.06152
+      ]
+    },
+    {
+      "id": "listing-05",
+      "type": "house",
+      "community": "University Heights",
+      "sector": "NORTHWEST",
+      "price": 575000,
+      "beds": 5,
+      "baths": 3,
+      "area": 1410,
+      "built": 1976,
+      "coordinates": [
+        -114.13386,
+        51.07082
+      ]
+    },
+    {
+      "id": "listing-06",
+      "type": "condo",
+      "community": "Diamond Cove",
+      "sector": "SOUTH",
+      "price": 340000,
+      "beds": 3,
+      "baths": 1.5,
+      "area": 1190,
+      "built": 2009,
+      "coordinates": [
+        -114.02192,
+        50.94633
+      ]
+    },
+    {
+      "id": "listing-07",
+      "type": "house",
+      "community": "Auburn Bay",
+      "sector": "SOUTHEAST",
+      "price": 870000,
+      "beds": 5,
+      "baths": 3.5,
+      "area": 2800,
+      "built": 1997,
+      "coordinates": [
+        -113.95775,
+        50.89306
+      ]
+    },
+    {
+      "id": "listing-08",
+      "type": "house",
+      "community": "Garrison Green",
+      "sector": "WEST",
+      "price": 1050000,
+      "beds": 4,
+      "baths": 2,
+      "area": 2000,
+      "built": 1965,
+      "coordinates": [
+        -114.12409,
+        51.00307
+      ]
+    },
+    {
+      "id": "listing-09",
+      "type": "condo",
+      "community": "West Hillhurst",
+      "sector": "CENTRE",
+      "price": 235000,
+      "beds": 3,
+      "baths": 1.5,
+      "area": 740,
+      "built": 1994,
+      "coordinates": [
+        -114.11453,
+        51.05431
+      ]
+    },
+    {
+      "id": "listing-10",
+      "type": "condo",
+      "community": "Southview",
+      "sector": "EAST",
+      "price": 325000,
+      "beds": 1,
+      "baths": 1.5,
+      "area": 590,
+      "built": 2002,
+      "coordinates": [
+        -113.99614,
+        51.03418
+      ]
+    },
+    {
+      "id": "listing-11",
+      "type": "house",
+      "community": "Nolan Hill",
+      "sector": "NORTH",
+      "price": 950000,
+      "beds": 4,
+      "baths": 2.5,
+      "area": 1330,
+      "built": 2004,
+      "coordinates": [
+        -114.16559,
+        51.17548
+      ]
+    },
+    {
+      "id": "listing-12",
+      "type": "townhouse",
+      "community": "Homestead",
+      "sector": "NORTHEAST",
+      "price": 620000,
+      "beds": 3,
+      "baths": 3,
+      "area": 1120,
+      "built": 1983,
+      "coordinates": [
+        -113.91646,
+        51.12175
+      ]
+    },
+    {
+      "id": "listing-13",
+      "type": "condo",
+      "community": "Varsity",
+      "sector": "NORTHWEST",
+      "price": 245000,
+      "beds": 3,
+      "baths": 1.5,
+      "area": 940,
+      "built": 1983,
+      "coordinates": [
+        -114.15922,
+        51.09256
+      ]
+    },
+    {
+      "id": "listing-14",
+      "type": "townhouse",
+      "community": "Parkland",
+      "sector": "SOUTH",
+      "price": 570000,
+      "beds": 4,
+      "baths": 2,
+      "area": 1190,
+      "built": 1978,
+      "coordinates": [
+        -114.03002,
+        50.92137
+      ]
+    },
+    {
+      "id": "listing-15",
+      "type": "house",
+      "community": "Riverbend",
+      "sector": "SOUTHEAST",
+      "price": 755000,
+      "beds": 3,
+      "baths": 4,
+      "area": 1700,
+      "built": 2000,
+      "coordinates": [
+        -114.01802,
+        50.97417
+      ]
+    },
+    {
+      "id": "listing-16",
+      "type": "condo",
+      "community": "Aspen Woods",
+      "sector": "WEST",
+      "price": 255000,
+      "beds": 2,
+      "baths": 1.5,
+      "area": 1140,
+      "built": 2007,
+      "coordinates": [
+        -114.21035,
+        51.04409
+      ]
+    },
+    {
+      "id": "listing-17",
+      "type": "house",
+      "community": "Greenview",
+      "sector": "CENTRE",
+      "price": 680000,
+      "beds": 4,
+      "baths": 3,
+      "area": 1660,
+      "built": 1962,
+      "coordinates": [
+        -114.05639,
+        51.09579
+      ]
+    },
+    {
+      "id": "listing-18",
+      "type": "house",
+      "community": "Dover",
+      "sector": "EAST",
+      "price": 1125000,
+      "beds": 3,
+      "baths": 3.5,
+      "area": 1870,
+      "built": 1990,
+      "coordinates": [
+        -113.991,
+        51.02335
+      ]
+    },
+    {
+      "id": "listing-19",
+      "type": "condo",
+      "community": "Keystone Hills",
+      "sector": "NORTH",
+      "price": 275000,
+      "beds": 2,
+      "baths": 1.5,
+      "area": 610,
+      "built": 2022,
+      "coordinates": [
+        -114.02653,
+        51.17985
+      ]
+    },
+    {
+      "id": "listing-20",
+      "type": "condo",
+      "community": "Abbeydale",
+      "sector": "NORTHEAST",
+      "price": 275000,
+      "beds": 3,
+      "baths": 1.5,
+      "area": 590,
+      "built": 2012,
+      "coordinates": [
+        -113.92858,
+        51.05919
+      ]
+    },
+    {
+      "id": "listing-21",
+      "type": "condo",
+      "community": "Haskayne",
+      "sector": "NORTHWEST",
+      "price": 385000,
+      "beds": 3,
+      "baths": 1,
+      "area": 980,
+      "built": 1976,
+      "coordinates": [
+        -114.28606,
+        51.11893
+      ]
+    },
+    {
+      "id": "listing-22",
+      "type": "townhouse",
+      "community": "Shawnessy",
+      "sector": "SOUTH",
+      "price": 515000,
+      "beds": 2,
+      "baths": 3,
+      "area": 1600,
+      "built": 1997,
+      "coordinates": [
+        -114.07721,
+        50.90599
+      ]
+    },
+    {
+      "id": "listing-23",
+      "type": "house",
+      "community": "Mckenzie Towne",
+      "sector": "SOUTHEAST",
+      "price": 1105000,
+      "beds": 4,
+      "baths": 2.5,
+      "area": 2650,
+      "built": 2020,
+      "coordinates": [
+        -113.96497,
+        50.91554
+      ]
+    },
+    {
+      "id": "listing-24",
+      "type": "house",
+      "community": "Currie Barracks",
+      "sector": "WEST",
+      "price": 960000,
+      "beds": 3,
+      "baths": 3,
+      "area": 2230,
+      "built": 1986,
+      "coordinates": [
+        -114.1247,
+        51.01723
+      ]
+    },
+    {
+      "id": "listing-25",
+      "type": "house",
+      "community": "Crescent Heights",
+      "sector": "CENTRE",
+      "price": 715000,
+      "beds": 4,
+      "baths": 2,
+      "area": 1580,
+      "built": 1998,
+      "coordinates": [
+        -114.06103,
+        51.05966
+      ]
+    }
+  ]
+}
