@@ -1,6 +1,6 @@
 {
   "name": "unmap-property-explorer",
-  "version": "0.0.3",
+  "version": "0.0.4",
   "private": true,
   "description": "Property Explorer: fictional listings with commute times and travel-time areas, built with Unmap. An Unmap app and a starter you can clone.",
   "scripts": {
@@ -16,10 +16,10 @@
   },
   "dependencies": {
     "@base-ui/react": "^1.6.0",
-    "@unmap/geocoding": "0.22.1",
-    "@unmap/maps": "0.22.1",
-    "@unmap/routing": "0.22.1",
-    "@unmap/sdk": "0.22.1",
+    "@unmap/geocoding": "0.23.0",
+    "@unmap/maps": "0.23.0",
+    "@unmap/routing": "0.23.0",
+    "@unmap/sdk": "0.23.0",
     "class-variance-authority": "^0.7.1",
     "clsx": "^2.1.1",
     "geist": "^1.7.2",
