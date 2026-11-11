@@ -1,5 +1,15 @@
 # @unmap/app-property-explorer
 
+## 0.0.12
+
+### Patch Changes
+
+- Updated dependencies [8e01899]
+  - @unmap/maps@0.30.0
+  - @unmap/sdk@0.30.0
+  - @unmap/geocoding@0.30.0
+  - @unmap/routing@0.30.0
+
 ## 0.0.11
 
 ### Patch Changes
