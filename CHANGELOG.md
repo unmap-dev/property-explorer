@@ -1,5 +1,14 @@
 # @unmap/app-property-explorer
 
+## 0.0.13
+
+### Patch Changes
+
+- @unmap/sdk@0.31.0
+- @unmap/maps@0.31.0
+- @unmap/geocoding@0.31.0
+- @unmap/routing@0.31.0
+
 ## 0.0.12
 
 ### Patch Changes
