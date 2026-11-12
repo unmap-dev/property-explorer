@@ -84,7 +84,7 @@ export function HomesApp() {
     <div className="flex h-dvh flex-col">
       <AppHeader manifest={MANIFEST} lang={lang} onLang={setLang} />
       <div className="flex min-h-0 flex-1 flex-col lg:flex-row">
-        <aside className="order-last flex min-h-0 flex-1 flex-col gap-4 overflow-y-auto border-t p-3 lg:order-first lg:w-[440px] lg:flex-none lg:border-t-0 lg:border-r">
+        <aside className="order-last flex min-h-0 flex-1 flex-col gap-4 overflow-y-auto border-t p-3 *:shrink-0 lg:order-first lg:w-[440px] lg:flex-none lg:border-t-0 lg:border-r">
           <Notice lang={lang} />
           <CommuteControls
             destination={destination}
