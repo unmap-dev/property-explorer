@@ -65,6 +65,18 @@ lists every problem it finds. Then update the sample entries in `lib/manifest.ts
 `DATA_SOURCES.md` and the sample destination in `components/homes/homes-app.tsx`. Real listings
 come with their own licence and terms; check them before you publish.
 
+### Listings in the US
+
+The sample is in Calgary, and the destination search prefers places near downtown Calgary
+(`CALGARY` in `components/homes/homes-app.tsx`), which also keeps it in Canada. Unmap also
+geocodes and routes by car in ten US metros: Los Angeles, New York, Miami, SF Bay Area, Seattle,
+Washington DC, Austin, Boston, Denver and Chicago (place names nationwide). For US listings, set
+that focus and the sample destination to points in their metro (Seattle is `[-122.33, 47.61]`): a
+focus inside the US makes the search a US one, and the nearby places around a US listing come from
+the US corpus by its point. Change `destinationIntro` in `lib/text.ts`, which says "any place in
+Canada". Driving commutes and areas then work when the listings and the destination are in the
+same metro. US routing is car only: the walking switch answers `422 outside_coverage` there.
+
 ## How it is built
 
 ```
